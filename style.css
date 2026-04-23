@@ -1,17 +1,75 @@
-.omelette-image{
-    width:500px;
-    padding:5px;
-    border:1px solid transparent;
-    border-radius:5px;
+body{
+    background-color:#f3e5d8;
     display:flex;
     justify-content:center;
     align-items:center;
+    min-height:100vh;
+    padding:20px;
+    font-family:young-serif,serif;
+}
+.card{
+    border-radius:20px;
+    background-color:white;
+    padding:25px;
+    max-width:600px;
+    width:100%;
+}
+.omelette-image{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:20px;
+
+}
+.omelette-title{
+    font-size:32px;
+    margin-bottom:10px;
+}
+.omelette-discription{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:20px;
 }
 .time-list{
-    border:1px solid trasparent;
-    background-color:rgb(245, 235, 245);
+    border:1px solid transparent;
+    background-color:#f8eaf3;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:20px;
+    
+}
+.time-description{
+    color:#7b284f;
+    font-weight:bold;
+}
+h2{
+    color:#7b284f;
+}
+
+.ingredients-list{
+    border-bottom:1px solid #ddd;
+    padding-bottom:15px;
+    margin-bottom:15px;
+
+}
+.instruction ol{
+    padding-left:20px;
+
+}
+.instruction li{
+    line-height:1.5;
+    margin-bottom:15px;
+}
+.nutrition-row{
     display:flex;
-    justify-content:center;
-    align-items:center;
-    :row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding:10px 0;
+}
+.nutrition-row span:last-child{
+    color:#7b284f;
+    font-weight:bold;
+
+}
+.bold{
+    font-weight:bold;
 }
