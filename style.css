@@ -1,0 +1,17 @@
+.omelette-image{
+    width:500px;
+    padding:5px;
+    border:1px solid transparent;
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.time-list{
+    border:1px solid trasparent;
+    background-color:rgb(245, 235, 245);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    :row;
+}
